@@ -1,0 +1,52 @@
+/* Botón principal */
+.btn-custom {
+  background-color: #B03060;
+  border-color: #B03060;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: white !important; 
+  border-color: #B03060 !important;
+  color: #B03060;
+}
+
+/* Botón outline */
+.btn-outline-custom {
+  color: #B03060;
+  border: 1px solid #B03060;
+}
+
+.btn-outline-custom:hover {
+  background-color: #B03060;
+  color: white;
+}
+
+/* Hover links navbar */
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #B03060 !important;
+}
+
+.bi-star-fill{
+  color: yellow;
+}
+
+a{
+  text-decoration: none;
+}
+.tel{
+  color: #595c5f;
+}
+.email{
+  color: #595c5f;
+}
+.bi-instagram{
+  color: black;
+}
+.bi-instagram:hover{
+  color: #B03060;
+}
