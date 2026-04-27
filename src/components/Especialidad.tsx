@@ -31,9 +31,14 @@ function Especialidad(){
                             </div>
                         </div>
                         {/*Imagen */}
-                        <div className=" flex-grow-1 ">
-                            <img src={imagen} alt="" />
-                        </div>
+                        <div className="flex-grow-1 overflow-hidden">
+  <img 
+    src={imagen} 
+    alt="" 
+    className="img-fluid w-100 h-100"
+    style={{ objectFit: "cover" }}
+  />
+</div>
                     </div>
                 </div>
                 {/*Col Derecha */}
@@ -60,7 +65,14 @@ function Especialidad(){
                                     <p className="small text-muted">Convertimos prendas viejas en nuevas. Reciclaje con estilo y propósito.</p>
                                     <span className="small">Detalles</span>
                                 </div>
-                                <div className=" flex-grow-1"><img src={imagen} alt=""  className="img-fluid w-100 h-100" style={{ objectFit: "cover" }}/></div>
+                                <div className="flex-grow-1 overflow-hidden">
+  <img 
+    src={imagen} 
+    alt="" 
+    className="img-fluid w-100 h-100"
+    style={{ objectFit: "cover" }}
+  />
+</div>
                             </div>
                         </div>
                         {/*Card chica */}
@@ -72,7 +84,14 @@ function Especialidad(){
                                     <p className="small text-muted">Prendas de lujo y detalle fino. Trabajo artesanal de máxima calidad.</p>
                                     <span className="small">Detalles</span>
                                 </div>
-                                <div className=" flex-grow-1"><img src={imagen} alt="" className="img-fluid w-100 h-100" style={{ objectFit: "cover" }}/></div>
+                                <div className="flex-grow-1 overflow-hidden">
+  <img 
+    src={imagen} 
+    alt="" 
+    className="img-fluid w-100 h-100"
+    style={{ objectFit: "cover" }}
+  />
+</div>
                             </div>
                         </div>
 
@@ -85,7 +104,14 @@ function Especialidad(){
                                     <p className="small text-muted">Cuando necesitas algo listo en poco tiempo. Nos adaptamos a tu urgencia.</p>
                                     <span className="small">Detalles</span>
                                 </div>
-                                <div className=" flex-grow-1"><img src={imagen} alt=""  className="img-fluid w-100 h-100" style={{ objectFit: "cover" }}/></div>
+                                <div className="flex-grow-1 overflow-hidden">
+  <img 
+    src={imagen} 
+    alt="" 
+    className="img-fluid w-100 h-100"
+    style={{ objectFit: "cover" }}
+  />
+</div>
                             </div>
                         </div>
                     </div>
