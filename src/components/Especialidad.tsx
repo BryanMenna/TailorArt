@@ -1,4 +1,4 @@
-import imagen from "../img/portada.png";
+import imagen from "../img/sin-foto.png";
 
 function Especialidad() {
   return (
